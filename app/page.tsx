@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import { Chat } from "@/components/chat";
+import { Chat } from '@/components/chat'
 
 export default function Home() {
-  return <Chat />;
+  return <Chat />
 }
