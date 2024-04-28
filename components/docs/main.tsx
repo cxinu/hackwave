@@ -1,6 +1,8 @@
 import CountUp from 'react-countup'
 import VisibilitySensor from 'react-visibility-sensor'
 import Image from 'next/image'
+import { useState } from 'react'
+import Link from 'next/link'
 
 export default function Main() {
   return (
@@ -8,28 +10,28 @@ export default function Main() {
       <div className="container px-5 pt-32 mx-auto lg:px-4 lg:py-4">
         <div className="flex flex-col w-full mb-2 text-left md:text-center ">
           <h1 className="mb-2 text-6xl font-bold tracking-tighter text-white lg:text-8xl md:text-7xl">
-            <span>We are making </span>
+            <span>Luminai </span>
             <br className="hidden lg:block"></br>
-            Stunning websites
+            <div className="text-violet-500">AI web search</div>
           </h1>
           <br></br>
           <p className="mx-auto  text-xl font-normal leading-relaxed text-gray-600 dark:text-gray-300 lg:w-2/3">
-            nine4 is a free to use template website for websites made with{' '}
-            <a href="https://nextjs.org/" className="underline">
-              Next.js
-            </a>{' '}
-            and styled with Tailwind CSS
+            Lumin<text className="text-purple-400 font-bold">ai</text> is a
+            GPT-4 powered search engine that uses the latest in AI technology to
+            provide you with the best search results.
           </p>
         </div>
       </div>
-      <div className="container flex flex-col items-center justify-center py-8 mx-auto rounded-lg md:p-1 p-3">
-        <Image
-          className="object-cover object-center w-full mb-10 border-gray-200 dark:border-gray-900 g327 border rounded-lg shadow-md"
-          alt="hero"
-          src="/images/placeholder.png"
-          width={1920}
-          height={1080}
-        />
+      <div className="container flex flex-col items-center justify-center py-8 mx-auto md:p-1 p-3">
+        <Link href="/">
+          <Image
+            className="object-cover object-center w-full mb-10 border-gray-200 g327 border rounded-lg shadow-md hover:blur-sm transition-all"
+            alt="hero"
+            src="/images/searchresults.png"
+            width={1920}
+            height={1080}
+          />
+        </Link>
       </div>
       <section className="text-gray-600 body-font">
         <section className="text-gray-600 body-font">
@@ -144,10 +146,10 @@ export default function Main() {
         <div className="container px-5 mx-auto">
           <div className="text-center mb-20">
             <h2 className="sm:text-5xl font-medium title-font text-white mb-4">
-              Our Team
+              voxel-devs
             </h2>
             <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">
-              Here is our company
+              Our Team
             </p>
             <div className="flex mt-6 justify-center">
               <div className="w-16 h-1 rounded-full bg-white inline-flex"></div>
