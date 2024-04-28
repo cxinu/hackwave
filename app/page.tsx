@@ -1,7 +1,15 @@
 'use client'
 
-import { Chat } from '@/components/chat'
+import Footer from '@/components/docs/footer'
+import Header from '@/components/docs/header'
+import Main from '@/components/docs/main'
 
-export default function Home() {
-  return <Chat />
+export default function Docs() {
+  return (
+    <div className="bg-black bg-starry-night">
+      <Header />
+      <Main />
+      <Footer />
+    </div>
+  )
 }

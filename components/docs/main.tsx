@@ -93,7 +93,7 @@ export default function Main() {
                   Free
                 </h2>
                 <p className="leading-relaxed text-lg">
-                  All of our templates are 100% free forever.
+                  All of our source code is free and open source.
                 </p>
               </div>
             </div>
@@ -103,8 +103,7 @@ export default function Main() {
                   Responsive
                 </h2>
                 <p className="leading-relaxed text-lg">
-                  All our templates come with full responsiveness straight out
-                  of the box.
+                  UI is full responsiveness accessable of mobile devices.
                 </p>
               </div>
             </div>
