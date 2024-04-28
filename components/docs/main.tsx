@@ -25,11 +25,11 @@ export default function Main() {
       <div className="container flex flex-col items-center justify-center py-8 mx-auto md:p-1 p-3">
         <Link href="/">
           <Image
-            className="object-cover object-center w-full mb-10 border-gray-200 g327 border rounded-lg shadow-md hover:blur-sm transition-all"
+            className="object-cover object-center w-full mb-10 g327 border rounded-lg shadow-md hover:blur-sm transition-all"
             alt="hero"
             src="/images/searchresults.png"
-            width={1920}
-            height={1080}
+            width={1280}
+            height={720}
           />
         </Link>
       </div>
@@ -81,7 +81,7 @@ export default function Main() {
             <Image
               alt="feature"
               className="object-cover object-center h-full w-full"
-              src="/images/placeholder.png"
+              src="/images/hackwave.png"
               width={1920}
               height={1080}
             />
