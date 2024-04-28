@@ -5,6 +5,7 @@ import { cn } from '@/lib/utils'
 import { ThemeProvider } from '@/components/theme-provider'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
+import { SessionProvider } from 'next-auth/react'
 
 const fontSans = FontSans({
   subsets: ['latin'],
