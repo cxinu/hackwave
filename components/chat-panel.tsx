@@ -94,6 +94,7 @@ export function ChatPanel() {
             type="text"
             name="input"
             placeholder="Ask a question..."
+            bg-lime-400
             value={input}
             className="pl-4 pr-10 h-12 rounded-full bg-muted"
             onChange={e => {
