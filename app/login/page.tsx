@@ -1,9 +1,7 @@
-'use client'
-
-import type { NextRequest } from 'next/server'
 import { signIn } from 'next-auth/react'
+import { NextPage } from 'next'
 
-export default function Login(req: NextRequest) {
+const LoginPage: NextPage = () => {
   return (
     <div>
       <p>This is login page - public route</p>
@@ -11,3 +9,5 @@ export default function Login(req: NextRequest) {
     </div>
   )
 }
+
+export default LoginPage
