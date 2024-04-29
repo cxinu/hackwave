@@ -1,6 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Luminai
+
+![image](https://github.com/cxinu/hackwave/assets/72374438/dda2e121-6c9c-4ecd-99f4-31eeedc9cffa)
+
+
+## Build
 
 First, run the development server:
 
