@@ -8,7 +8,7 @@ export default function Showcard() {
   return (
     <Link href="https://luminai-search.vercel.app">
       <div
-        className="relative container flex flex-col items-center justify-center align-middle py-8 mx-auto md:p-1 p-3"
+        className="relative container flex flex-col items-center justify-center align-middle py-5 md:py-8 mx-auto md:p-1 p-3"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
