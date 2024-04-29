@@ -69,10 +69,11 @@ export default function Main() {
             <div className="flex flex-col mb-10 lg:items-start items-center">
               <div className="flex-grow">
                 <h2 className="text-white text-2xl title-font font-medium mb-3">
-                  Free
+                  Agents
                 </h2>
                 <p className="leading-relaxed text-lg">
-                  All of our source code is free and open source.
+                  Allowing us to use multiple GPT agents for different tasks at
+                  hand.
                 </p>
               </div>
             </div>
@@ -89,11 +90,10 @@ export default function Main() {
             <div className="flex flex-col mb-10 lg:items-start items-center">
               <div className="flex-grow">
                 <h2 className="text-white text-2xl title-font font-medium mb-3">
-                  SEO Friendly
+                  Personalization
                 </h2>
                 <p className="leading-relaxed text-lg">
-                  Our templates have the best SEO practices ensuring you get to
-                  the top.
+                  Personlization is Session Based.
                 </p>
               </div>
             </div>
@@ -103,17 +103,19 @@ export default function Main() {
                   Fast
                 </h2>
                 <p className="leading-relaxed text-lg">
-                  The fastest websites you can get.
+                  Inspite of using LLMs all the UI is streamable, achiving the
+                  fastest llm based web search you can get.
                 </p>
               </div>
             </div>
             <div className="flex flex-col mb-10 lg:items-start items-center">
               <div className="flex-grow">
                 <h2 className="text-white text-2xl title-font font-medium mb-3">
-                  Google Analytics Supported
+                  Privacy
                 </h2>
                 <p className="leading-relaxed text-lg">
-                  All our templates come with full support for Google Analytics.
+                  Middleware keeps the searchs anonymous and makes it Private
+                  Search Engine.
                 </p>
               </div>
             </div>
